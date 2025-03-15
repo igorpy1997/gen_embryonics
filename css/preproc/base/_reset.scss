@@ -98,29 +98,8 @@ hr {
   vertical-align: baseline;
 }
 
-a {
-  @include mix.link;
-}
 
-p {
-  font-family: vars.$main-font;
-  font-weight: vars.$font-normal;
-  font-size: vars.$fs-small;
-  color: vars.$light-text;
-  line-height: 171%;
-  margin: 0;
-  text-align: start;
-}
 
-h2 {
-  @include mix.heading(vars.$fs-xl, vars.$font-black);
-  line-height: 133%;
-  text-transform: uppercase;
-}
-
-ul {
-  @extend %list-reset;
-}
 
 button {
   border: none;

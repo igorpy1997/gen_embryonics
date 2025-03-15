@@ -4,6 +4,7 @@
 .card-custom{
   max-width: 1320px;
   margin: auto;
+  margin-bottom: 180px;
   h2{
     @include mxn.nav-link-typography-h2;
   }

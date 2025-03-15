@@ -1,15 +1,26 @@
+body{
+  overflow-x: hidden;
+
+}
+
 .woman {
-  top:170px;
+  top:205px;
   left: 280px;
-  transform: scale(0.9);
   transform-origin: center;
-
-
   .circles {
     top: 90px;
     div:nth-child(1) {
       top: 35px;
     }
+  }
+}
 
+@media (max-width: 767.98px){
+  .woman{
+    top:515px;
+    left: 100px;
+  }
+  .card-custom{
+    margin-bottom: 400px !important;
   }
 }

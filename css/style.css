@@ -34,10 +34,13 @@ header .container .navbar-collapse .d-flex .btn:hover {
   color: white;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .woman {
-  top: 170px;
+  top: 205px;
   left: 280px;
-  transform: scale(0.9);
   transform-origin: center;
 }
 .woman .circles {
@@ -47,9 +50,19 @@ header .container .navbar-collapse .d-flex .btn:hover {
   top: 35px;
 }
 
+@media (max-width: 767.98px) {
+  .woman {
+    top: 515px;
+    left: 100px;
+  }
+  .card-custom {
+    margin-bottom: 400px !important;
+  }
+}
 .card-custom {
   max-width: 1320px;
   margin: auto;
+  margin-bottom: 180px;
 }
 .card-custom h2 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -83,6 +96,22 @@ header .container .navbar-collapse .d-flex .btn:hover {
 .card-custom a:hover {
   background-color: #f45b69;
   color: white;
+}
+
+.family-values-banner {
+  position: relative;
+  z-index: 3;
+  max-width: 1320px;
+  margin: 0 auto;
+  background: #d9f1f6;
+}
+.family-values-banner .dna {
+  background-image: url("../../../images/embryon 1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.family-values-banner .row .col-8 {
+  padding-top: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */

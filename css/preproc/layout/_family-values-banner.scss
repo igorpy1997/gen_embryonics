@@ -1,0 +1,19 @@
+@use '../abstracts/variables' as vars;
+
+.family-values-banner{
+  position: relative;
+  z-index: 3;
+  max-width: 1320px;
+  margin: 0 auto;
+  background: vars.$main-background-color;
+  .dna{
+    background-image: url('../../../images/embryon 1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .row{
+    .col-8{
+       padding-top: 90px;
+    }
+  }
+}
