@@ -1,16 +1,16 @@
 @use '../abstracts/mixins' as mxn;
 
 header{
-  .container-fluid{
-    padding-left: 64px;
-    padding-right: 64px;
-    .navbar-brand{
-      margin-right:72px;
+  .container{
 
+    img{
+      max-width: 246px;
     }
+    max-width: 1312px;
+    margin: 0 auto;
     .navbar-collapse{
       .navbar-nav{
-        margin-right: 324px;
+
       }
       .nav-link{
         @include mxn.nav-link-typography;
