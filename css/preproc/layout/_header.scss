@@ -1,0 +1,33 @@
+@use '../abstracts/mixins' as mxn;
+
+header{
+  .container-fluid{
+    padding-left: 64px;
+    padding-right: 64px;
+    .navbar-brand{
+      margin-right:72px;
+
+    }
+    .navbar-collapse{
+      .navbar-nav{
+        margin-right: 324px;
+      }
+      .nav-link{
+        @include mxn.nav-link-typography;
+
+      }
+      .d-flex{
+        .btn{
+          @include mxn.nav-link-typography;
+          border: 2px solid #f45b69;
+          border-radius: 32px;
+          padding: 8px 20px;
+        }
+        .btn:hover{
+          background: #f45b69;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
