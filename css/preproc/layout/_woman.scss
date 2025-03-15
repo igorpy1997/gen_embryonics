@@ -1,0 +1,15 @@
+.woman {
+  top:170px;
+  left: 280px;
+  transform: scale(0.9);
+  transform-origin: center;
+
+
+  .circles {
+    top: 90px;
+    div:nth-child(1) {
+      top: 35px;
+    }
+
+  }
+}

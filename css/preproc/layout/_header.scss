@@ -1,6 +1,7 @@
 @use '../abstracts/mixins' as mxn;
 
 header{
+  margin-bottom: 103px;
   .container{
 
     img{
@@ -17,15 +18,8 @@ header{
 
       }
       .d-flex{
-        .btn{
-          @include mxn.nav-link-typography;
-          border: 2px solid #f45b69;
-          border-radius: 32px;
-          padding: 8px 20px;
-        }
-        .btn:hover{
-          background: #f45b69;
-          color: #fff;
+        .btn {
+          @include mxn.btn-base;
         }
       }
     }

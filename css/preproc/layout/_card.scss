@@ -1,0 +1,17 @@
+@use '../abstracts/mixins' as mxn;
+
+
+.card-custom{
+  max-width: 1320px;
+  margin: auto;
+  h2{
+    @include mxn.nav-link-typography-h2;
+  }
+  p{
+    @include mxn.nav-link-typography-p;
+  }
+  a{
+    @include mxn.btn-base;
+    padding: 16px 48px;
+  }
+}

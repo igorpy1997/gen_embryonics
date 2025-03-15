@@ -1,3 +1,6 @@
+header {
+  margin-bottom: 103px;
+}
 header .container {
   max-width: 1312px;
   margin: 0 auto;
@@ -10,19 +13,76 @@ header .container .navbar-collapse .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  color: #114b5f;
 }
 header .container .navbar-collapse .d-flex .btn {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  color: #114b5f;
   border: 2px solid #f45b69;
   border-radius: 32px;
   padding: 8px 20px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 header .container .navbar-collapse .d-flex .btn:hover {
-  background: #f45b69;
-  color: #fff;
+  background-color: #f45b69;
+  color: white;
+}
+
+.woman {
+  top: 170px;
+  left: 280px;
+  transform: scale(0.9);
+  transform-origin: center;
+}
+.woman .circles {
+  top: 90px;
+}
+.woman .circles div:nth-child(1) {
+  top: 35px;
+}
+
+.card-custom {
+  max-width: 1320px;
+  margin: auto;
+}
+.card-custom h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 129%;
+  color: #114b5f;
+}
+.card-custom p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #597d89;
+}
+.card-custom a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #114b5f;
+  border: 2px solid #f45b69;
+  border-radius: 32px;
+  padding: 8px 20px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 16px 48px;
+}
+.card-custom a:hover {
+  background-color: #f45b69;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
