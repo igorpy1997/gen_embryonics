@@ -1,0 +1,112 @@
+@use '../abstracts/mixins' as mxn;
+
+.contact-us {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  padding-top: 24px;
+
+  .row .col-lg-6 {
+    background-image: url("../images/young-mother-having-fun-with-her-little-son 1.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+  }
+
+  h3 {
+    @include mxn.nav-link-typography-h3;
+  }
+
+  p {
+    @include mxn.nav-link-typography-p;
+  }
+
+  .row .col-xl-6 {
+
+    .row{
+      max-width: 278px;
+    }
+    padding: 180px 265px 180px 152px;
+
+    // Large desktop (under 1440px)
+    @media (max-width: 1399px) {
+      padding: 160px 200px 160px 120px;
+    }
+
+    // Desktop (under 1200px)
+    @media (max-width: 1199px) {
+      padding: 140px 160px 140px 100px;
+    }
+
+    // Small desktop and tablets (under 992px)
+    @media (max-width: 991px) {
+      padding: 100px 80px 100px 80px;
+
+    }
+
+    // Tablets and large phones (under 768px)
+    @media (max-width: 767px) {
+      padding: 80px 60px 80px 60px;
+    }
+
+    // Phones (under 576px)
+    @media (max-width: 575px) {
+      padding: 60px 30px 60px 30px;
+    }
+  }
+  .contact-details {
+    display: flex;
+    align-items: center;
+  }
+
+  .email-with-icon {
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 0;
+  }
+
+  .email-with-icon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background-image: url("../images/Frame%2064.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  /* Media queries для адаптивности */
+  @media (max-width: 991.98px) {
+    .contact-us .row .col-xl-6 {
+      max-width: 278px;
+      margin: 0 auto;
+
+    }
+
+    .email-with-icon {
+      padding-left: 50px;
+    }
+
+    .email-with-icon::before {
+      width: 38px;
+      height: 38px;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .email-with-icon {
+      padding-left: 42px;
+    }
+
+    .email-with-icon::before {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+

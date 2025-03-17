@@ -1,0 +1,114 @@
+@use '../abstracts/mixins' as mxn;
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 0;
+  border-top: 1px dotted #ccc; /* Пунктирная линия сверху, как на макете */
+
+}
+
+.footer-row {
+  align-items: center;
+}
+
+/* Стили для копирайта */
+.copyright-col {
+  text-align: left;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Стили для кнопок */
+.buttons-col {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+/* Стили для соцсетей */
+.social-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-media a {
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.social-media img {
+  max-width: 24px;
+  max-height: 24px;
+  margin: 0 5px;
+  display: block;
+}
+
+/* Мобильная версия */
+@media (max-width: 991px) {
+  .footer-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .copyright-col {
+    text-align: center;
+  }
+
+  .social-col {
+    justify-content: center;
+  }
+
+  .buttons-col {
+    width: 100%;
+  }
+
+  .footer-buttons {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-buttons a {
+    flex: 1;
+    text-align: center;
+    max-width: 45%;
+  }
+}
+
+/* Специальные стили для очень маленьких экранов */
+@media (max-width: 575px) {
+  .footer-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-buttons a {
+    width: 100%;
+    max-width: 80%;
+  }
+}
+
+.privacy-btn, .terms-btn{
+  @include mxn.btn-base;
+}
