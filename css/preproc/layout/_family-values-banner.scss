@@ -10,7 +10,7 @@
   background: vars.$main-background-color;
   .dna{
     background-repeat: no-repeat;
-    background-image: url('../../../images/embryon 1.svg');
+    background-image: url('../images/embryon 1.svg');
     mix-blend-mode: screen;
   }
   .row{
@@ -52,9 +52,9 @@
   .family-values-banner .row .family-content{
 
     background-image:
-            url('../../../images/icon1.svg'),
-            url('../../../images/icon3.svg'),
-            url('../../../images/icon4.svg');
+            url('../images/icon1.svg'),
+            url('../images/icon3.svg'),
+            url('../images/icon4.svg');
     background-size: 40% auto, 40% auto, 40% auto !important;
     background-position:
             bottom 180px  left,
