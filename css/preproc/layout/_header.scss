@@ -1,14 +1,18 @@
 @use '../abstracts/mixins' as mxn;
 
 header{
-  margin-bottom: 103px;
   .container{
-
+    position: absolute;
+    max-width: 1312px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    top:-24px;
     img{
       max-width: 246px;
     }
-    max-width: 1312px;
     margin: 0 auto;
+
     .navbar-collapse{
       .navbar-nav{
 
@@ -22,6 +26,15 @@ header{
           @include mxn.btn-base;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    .container {
+      position: relative;
+
     }
   }
 }

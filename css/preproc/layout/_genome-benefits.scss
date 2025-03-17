@@ -1,0 +1,46 @@
+@use '../abstracts/mixins' as mxn;
+
+.genome-benefits{
+  padding: 90px 64px 90px 64px;
+  h3{
+    @include mxn.nav-link-typography-h3;
+  }
+  h4{
+    @include mxn.nav-link-typography-h4;
+  }
+  p{
+    @include mxn.nav-link-typography-p;
+    text-align: start;
+  }
+
+  .row:nth-child(1), .row:nth-child(2){
+    margin-bottom: 64px;
+  }
+
+
+
+  .image{
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  a{
+    @include mxn.btn-base;
+    padding: 16px 48px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .genome-benefits {
+    padding: 90px 0 90px 0;
+    h4{
+      @include mxn.nav-link-typography-h4-mobile;
+    }
+    p{
+      @include mxn.nav-link-typography-p-mobile;
+    }
+  }
+  }

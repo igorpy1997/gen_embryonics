@@ -1,0 +1,80 @@
+@use '../abstracts/mixins' as mxn;
+
+.upper-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url("../../../images/Group.svg");
+  background-size: 98% 98%;
+  background-position: right -300px bottom 0;
+
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+
+}
+
+.card-custom{
+  padding-left: 64px;
+  padding-top: 103px;
+  max-width: 1320px;
+  margin: auto;
+  padding-bottom: 180px;
+  h2{
+    @include mxn.nav-link-typography-h2;
+  }
+  p{
+    @include mxn.nav-link-typography-p;
+  }
+  a{
+    @include mxn.btn-base;
+    padding: 16px 48px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .upper-container {
+    background-size: 80% 80% ;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .upper-container {
+    background-size: 70% auto ;
+    background-position: right -200px bottom;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .upper-container {
+    background-size: 50% auto;
+    background-position: right -50px bottom !important;
+
+  }
+  .card-custom{
+    padding-left:24px !important;
+    padding-right:24px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .upper-container {
+    margin: auto;
+    background-size: 60% auto;
+    background-position: right -50px bottom !important;
+    h2{
+      @include mxn.nav-link-typography-h2-mobile;
+    }
+    p{
+      @include mxn.nav-link-typography-p-mobile;
+    }
+
+  }
+  .card-custom{
+    padding-left:24px !important;
+    padding-right:24px !important;
+  }
+}
+

@@ -1,0 +1,62 @@
+@use '../abstracts/mixins' as mxn;
+
+.algorithm{
+  max-width: 1440px;
+  background-image: url('../../../images/Frame 39 (1).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 177px 168px 177px;
+  h4{
+    @include mxn.nav-link-typography-h4;
+  }
+  p{
+    @include mxn.nav-link-typography-p;
+  }
+
+  .row:nth-child(1) .col-lg-4{
+    padding-left: 0;
+    padding-right: 87px;
+    img{
+      margin-bottom: 20px;
+    }
+    margin-bottom: 48px;
+  }
+  a{
+    @include mxn.btn-base;
+    padding: 16px 48px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .algorithm{
+    padding-left: 100px;
+    padding-right: 100px;
+    .row:nth-child(1) .col-lg-4{
+      padding-right: 48px;
+    }
+
+  }
+}
+
+@media (max-width: 992px) {
+  .algorithm{
+    padding-left: 64px;
+    padding-right: 64px;
+    .row:nth-child(1) .col-lg-4{
+      padding-right: 0;
+    }
+
+  }
+}
+@media (max-width: 768px) {
+  .algorithm{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media (max-width: 576px) {
+  .algorithm{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
