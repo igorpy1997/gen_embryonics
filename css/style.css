@@ -152,7 +152,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   mix-blend-mode: screen;
 }
 .family-values-banner .row .family-content {
-  background-image: url("../images/icon1.svg"), url("../images/icon2.svg"), url("../images/icon3.svg"), url("/images/icon4.svg"), url("/images/icon5.svg");
+  background-image: url("../images/icon1.svg"), url("../images/icon2.svg"), url("../images/icon3.svg"), url("../images/icon4.svg"), url("../images/icon5.svg");
   background-position: bottom 200px left, bottom 200px left 600px, bottom 200px left 330px, bottom left 120px, bottom left 500px;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   padding-top: 90px;
