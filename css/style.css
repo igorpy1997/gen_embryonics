@@ -44,7 +44,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
 .upper-container {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url("../../../images/Group.svg");
+  background-image: url("images/Group.svg");
   background-size: 98% 98%;
   background-position: right -300px bottom 0;
   width: 100%;
@@ -148,11 +148,11 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 .family-values-banner .dna {
   background-repeat: no-repeat;
-  background-image: url("../../../images/embryon 1.svg");
+  background-image: url("images/embryon 1.svg");
   mix-blend-mode: screen;
 }
 .family-values-banner .row .family-content {
-  background-image: url("../../../images/icon1.svg"), url("../../../images/icon2.svg"), url("../../../images/icon3.svg"), url("../../../images/icon4.svg"), url("../../../images/icon5.svg");
+  background-image: url("images/icon1.svg"), url("images/icon2.svg"), url("images/icon3.svg"), url("images/icon4.svg"), url("images/icon5.svg");
   background-position: bottom 200px left, bottom 200px left 600px, bottom 200px left 330px, bottom left 120px, bottom left 500px;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   padding-top: 90px;
@@ -180,7 +180,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
 
 @media (max-width: 768px) {
   .family-values-banner .row .family-content {
-    background-image: url("../../../images/icon1.svg"), url("../../../images/icon3.svg"), url("../../../images/icon4.svg");
+    background-image: url("images/icon1.svg"), url("images/icon3.svg"), url("images/icon4.svg");
     background-size: 40% auto, 40% auto, 40% auto !important;
     background-position: bottom 180px left, bottom 180px left 360px, bottom left 180px !important;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
@@ -283,7 +283,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 .algorithm {
   max-width: 1440px;
-  background-image: url("../../../images/Frame 39 (1).svg");
+  background-image: url("images/Frame 39 (1).svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 177px 168px 177px;
