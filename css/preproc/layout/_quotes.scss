@@ -22,15 +22,18 @@
 
   .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
     background: #eafcff;
-    position: relative;
     padding: 32px 32px 0 0;
     min-height: 336px;
+
+
     .d-flex{
-      position: absolute;
       top: 248.5px;
       gap: 16px;
+
+
       .name{
         p{
+
           margin-bottom: 0;
         }
       }
@@ -194,7 +197,9 @@
 }
 
 
-
+.main-text{
+  min-height: 168px;
+}
 
 
 

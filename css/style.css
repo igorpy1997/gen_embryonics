@@ -62,7 +62,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
 
 .card-custom {
   padding-left: 64px;
-  padding-top: 103px;
+  padding-top: 170px;
   max-width: 1320px;
   margin: auto;
   padding-bottom: 180px;
@@ -219,7 +219,9 @@ header .container .navbar-collapse .d-flex .btn:hover {
   }
 }
 .genome-benefits {
-  padding: 90px 64px 90px 64px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 90px 32px 90px 32px;
 }
 .genome-benefits h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -245,6 +247,29 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 .genome-benefits .row:nth-child(1), .genome-benefits .row:nth-child(2) {
   margin-bottom: 64px;
+}
+.genome-benefits .row:nth-child(2) {
+  min-height: 176px;
+  --bs-gutter-x: 1.5rem;
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+.genome-benefits .row:nth-child(2) .col-12 {
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+.genome-benefits .row:nth-child(2) .col-12 .row .d-flex {
+  padding-right: 0;
+}
+.genome-benefits .row:nth-child(2) .col-12 .row .d-flex .image {
+  top: 28px;
+  left: 28px;
+  width: 108px;
+  height: 108px;
+}
+.genome-benefits .row:nth-child(2) .col-12 .row .d-flex .col-6 {
+  margin-left: 0;
+  margin-right: 0;
 }
 .genome-benefits .image img {
   width: 100%;
@@ -272,7 +297,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
 
 @media screen and (max-width: 1200px) {
   .genome-benefits {
-    padding: 90px 0 90px 0;
+    padding: 90px 32px 90px 32px;
   }
   .genome-benefits h4 {
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -289,6 +314,22 @@ header .container .navbar-collapse .d-flex .btn:hover {
     color: #597d89;
   }
 }
+.content {
+  max-width: 250px;
+}
+.content h4 {
+  text-align: start;
+}
+@media screen and (max-width: 768px) {
+  .content h4 {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+.content p {
+  text-align: left;
+}
+
 .algorithm {
   max-width: 1440px;
   background-image: url("../images/Frame 39 (1).svg");
@@ -402,12 +443,10 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
   background: #eafcff;
-  position: relative;
   padding: 32px 32px 0 0;
   min-height: 336px;
 }
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex {
-  position: absolute;
   top: 248.5px;
   gap: 16px;
 }
@@ -539,6 +578,10 @@ header .container .navbar-collapse .d-flex .btn:hover {
     justify-content: center;
   }
 }
+.main-text {
+  min-height: 168px;
+}
+
 .form-help {
   max-width: 1440px;
   margin: auto;
