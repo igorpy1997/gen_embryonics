@@ -1,10 +1,18 @@
 @use '../abstracts/mixins' as mxn;
 
+
+
 .form-help{
   max-width: 1440px;
   margin: auto;
   padding: 90px 160px 90px 160px;
   background-image: url("../images/Frame 107 (1).svg");
+  .submit-button-custom {
+    @include mxn.btn-base;
+
+    background: transparent;
+    padding: 14px 48px !important;
+  }
 
   // Large devices (desktops)
   @media (max-width: 1199px) {
@@ -97,14 +105,7 @@
         }
       }
 
-      .submit-button {
-        @include mxn.btn-base;
 
-        @media (max-width: 767px) {
-          padding: 8px 16px;
-          font-size: 14px;
-        }
-      }
 
 
     }

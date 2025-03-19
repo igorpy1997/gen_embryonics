@@ -1,4 +1,11 @@
 @charset "UTF-8";
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 header .container {
   position: absolute;
   max-width: 1312px;
@@ -12,21 +19,21 @@ header .container img {
   max-width: 246px;
 }
 header .container .navbar-collapse .nav-link {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #114b5f;
 }
 header .container .navbar-collapse .d-flex .btn {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #114b5f;
   border: 2px solid #f45b69;
   border-radius: 32px;
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
@@ -61,28 +68,28 @@ header .container .navbar-collapse .d-flex .btn:hover {
   padding-bottom: 180px;
 }
 .card-custom h2 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 129%;
   color: #114b5f;
 }
 .card-custom p {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #597d89;
 }
 .card-custom a {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #114b5f;
   border: 2px solid #f45b69;
   border-radius: 32px;
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
@@ -122,14 +129,14 @@ header .container .navbar-collapse .d-flex .btn:hover {
     background-position: right -50px bottom !important;
   }
   .upper-container h2 {
-    font-family: "Plus Jakarta Sans, sans-serif";
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 140%;
     color: #114b5f;
   }
   .upper-container p {
-    font-family: "Plus Jakarta Sans, sans-serif";
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -160,7 +167,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   padding-bottom: 423px;
 }
 .family-values-banner .row .family-content h3 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 44px;
   line-height: 145%;
@@ -172,7 +179,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   padding-right: 183px;
 }
 .family-values-banner .row .family-content .paragraph p {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
@@ -187,7 +194,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   }
   .family-values-banner .row .family-content h3 {
-    font-family: "Plus Jakarta Sans, sans-serif";
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 150%;
@@ -198,7 +205,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
     text-align: start;
   }
   .family-values-banner .row .family-content .paragraph p {
-    font-family: "Plus Jakarta Sans, sans-serif";
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -215,21 +222,21 @@ header .container .navbar-collapse .d-flex .btn:hover {
   padding: 90px 64px 90px 64px;
 }
 .genome-benefits h3 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 44px;
   line-height: 145%;
   color: #114b5f;
 }
 .genome-benefits h4 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
   color: #114b5f;
 }
 .genome-benefits p {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
@@ -244,19 +251,19 @@ header .container .navbar-collapse .d-flex .btn:hover {
   height: 100%;
 }
 .genome-benefits a {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #114b5f;
   border: 2px solid #f45b69;
   border-radius: 32px;
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  padding: 16px 48px;
+  padding: 14px 48px;
 }
 .genome-benefits a:hover {
   background-color: #f45b69;
@@ -268,14 +275,14 @@ header .container .navbar-collapse .d-flex .btn:hover {
     padding: 90px 0 90px 0;
   }
   .genome-benefits h4 {
-    font-family: "Plus Jakarta Sans, sans-serif";
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 144%;
     color: #114b5f;
   }
   .genome-benefits p {
-    font-family: "Plus Jakarta Sans, sans-serif";
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -290,41 +297,42 @@ header .container .navbar-collapse .d-flex .btn:hover {
   padding: 90px 177px 168px 177px;
 }
 .algorithm h4 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
   color: #114b5f;
 }
 .algorithm p {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #597d89;
 }
 .algorithm .row:nth-child(1) .col-lg-4 {
+  max-width: 304px;
   padding-left: 0;
-  padding-right: 87px;
+  padding-right: 0;
   margin-bottom: 48px;
 }
 .algorithm .row:nth-child(1) .col-lg-4 img {
   margin-bottom: 20px;
 }
 .algorithm a {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #114b5f;
   border: 2px solid #f45b69;
   border-radius: 32px;
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  padding: 16px 48px;
+  padding: 14px 48px;
 }
 .algorithm a:hover {
   background-color: #f45b69;
@@ -363,66 +371,56 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 .quotes {
   max-width: 1440px;
-  padding: 90px 64px 90px 64px;
+  padding: 90px 52px 90px 52px;
 }
 .quotes h3 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 44px;
   line-height: 145%;
   color: #114b5f;
 }
 .quotes p {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #597d89;
 }
 .quotes h4 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 150%;
   color: #114b5f;
 }
 .quotes .row:nth-child(1) {
   margin-bottom: 40px;
 }
+.quotes .row:nth-child(1) .col-lg-2 {
+  justify-content: end;
+}
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
+  background: #eafcff;
   position: relative;
-  padding: 32px 64px 112px 0;
+  padding: 32px 32px 0 0;
+  min-height: 336px;
+}
+.quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex {
+  position: absolute;
+  top: 248.5px;
+  gap: 16px;
+}
+.quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex .name p {
+  margin-bottom: 0;
 }
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .img-fluid {
   width: auto;
-}
-.quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 32px;
-  height: 100%;
-  background-color: transparent;
-  z-index: 1;
-}
-.quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(100% - 32px);
-  height: 100%;
-  background: #eafcff;
-  z-index: -1;
 }
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
   padding-left: 32px;
   max-width: 420px;
   margin: 0 auto;
-}
-.quotes .row:nth-child(2) .col-lg-45 .d-flex {
-  gap: 16px;
 }
 
 .custom-next, .custom-prev {
@@ -431,21 +429,37 @@ header .container .navbar-collapse .d-flex .btn:hover {
   text-align: center;
 }
 
-.owl-carousel-quotes .owl-stage {
-  display: flex;
-  align-items: stretch;
+@media (max-width: 1400px) {
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
+    min-height: 400px;
+  }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex {
+    top: 272px;
+  }
 }
-
-.owl-carousel-quotes .owl-item {
-  display: flex;
-  height: auto;
-}
-
 @media (max-width: 1200px) {
   .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
+    min-height: 360px;
     padding-left: 24px !important;
     padding-right: 24px !important;
     background: #eafcff;
+  }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex {
+    top: 272px;
+  }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #114b5f;
+  }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #597d89;
   }
   .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 p {
     margin-bottom: 24px;
@@ -502,6 +516,23 @@ header .container .navbar-collapse .d-flex .btn:hover {
     margin-left: 0 !important;
     margin-bottom: 24px;
   }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex {
+    top: 272px;
+  }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #114b5f;
+  }
+  .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #597d89;
+  }
   .owl-carousel-quotes .owl-item {
     display: flex;
     height: auto;
@@ -513,6 +544,26 @@ header .container .navbar-collapse .d-flex .btn:hover {
   margin: auto;
   padding: 90px 160px 90px 160px;
   background-image: url("../images/Frame 107 (1).svg");
+}
+.form-help .submit-button-custom {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #114b5f;
+  border: 2px solid #f45b69;
+  border-radius: 32px;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  padding: 14px 48px !important;
+}
+.form-help .submit-button-custom:hover {
+  background-color: #f45b69;
+  color: white;
 }
 @media (max-width: 1199px) {
   .form-help {
@@ -535,7 +586,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   }
 }
 .form-help .row:nth-child(1) p:nth-child(1) {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
@@ -547,7 +598,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   }
 }
 .form-help .row:nth-child(1) p:nth-child(2) {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 36px;
   line-height: 133%;
@@ -564,7 +615,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   }
 }
 .form-help .row:nth-child(1) p:nth-child(3) {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -590,7 +641,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
   border-radius: 8px;
   padding: 16px 48px 16px 24px;
   width: 100%;
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -624,30 +675,6 @@ header .container .navbar-collapse .d-flex .btn:hover {
     height: 70px;
   }
 }
-.form-help .row:nth-child(1) .col-lg-5 .submit-button {
-  font-family: "Plus Jakarta Sans, sans-serif";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  color: #114b5f;
-  border: 2px solid #f45b69;
-  border-radius: 32px;
-  padding: 8px 20px;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.form-help .row:nth-child(1) .col-lg-5 .submit-button:hover {
-  background-color: #f45b69;
-  color: white;
-}
-@media (max-width: 767px) {
-  .form-help .row:nth-child(1) .col-lg-5 .submit-button {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-}
 
 .contact-us {
   max-width: 1440px;
@@ -662,14 +689,14 @@ header .container .navbar-collapse .d-flex .btn:hover {
   background-position: center;
 }
 .contact-us h3 {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   font-size: 44px;
   line-height: 145%;
   color: #114b5f;
 }
 .contact-us p {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
@@ -849,14 +876,14 @@ footer {
   }
 }
 .privacy-btn, .terms-btn {
-  font-family: "Plus Jakarta Sans, sans-serif";
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #114b5f;
   border: 2px solid #f45b69;
   border-radius: 32px;
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;

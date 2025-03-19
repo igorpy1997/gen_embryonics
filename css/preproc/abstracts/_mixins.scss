@@ -1,14 +1,15 @@
 // abstracts/_mixins.scss
 @use 'sass:color';
 @use 'variables' as vars;
-
+$primary-font: "Plus Jakarta Sans", sans-serif;
 @mixin typography(
   $weight: 400,
   $size: 16px,
   $line-height: 150%,
   $color: #114b5f,
-  $font-family: "Plus Jakarta Sans, sans-serif"
-) {
+  $font-family: $primary-font
+)
+{
   font-family: $font-family;
   font-weight: $weight;
   font-size: $size;
@@ -52,11 +53,16 @@
   @include typography($weight: 600, $size: 18px, $line-height: 144%, $color: #114b5f);
 }
 
+@mixin nav-link-typography-a {
+  @include typography($weight: 700, $size: 16px, $line-height: 150%, $color: #114b5f);
+}
+
+
 @mixin btn-base {
   @include nav-link-typography;
   border: 2px solid #f45b69;
   border-radius: 32px;
-  padding: 8px 20px;
+  padding: 6px 20px;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
