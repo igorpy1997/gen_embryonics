@@ -1,8 +1,7 @@
 @use '../abstracts/mixins' as mxn;
 
 footer {
-  max-width: 1440px;
-  margin: 0 auto;
+
   padding: 24px 0;
   border-top: 1px dotted #ccc; /* Пунктирная линия сверху, как на макете */
 

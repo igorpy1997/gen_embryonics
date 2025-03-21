@@ -147,17 +147,21 @@ header .container .navbar-collapse .d-flex .btn:hover {
     padding-right: 24px !important;
   }
 }
+.family-values-container {
+  background: #d9f1f6;
+}
+
 .family-values-banner {
   position: relative;
-  z-index: 3;
-  max-width: 1440px;
+  max-width: 1312px;
   margin: 0 auto;
-  background: #d9f1f6;
 }
 .family-values-banner .dna {
   background-repeat: no-repeat;
   background-image: url("../images/embryon 1.svg");
+  background-size: cover;
   mix-blend-mode: screen;
+  z-index: 0;
 }
 .family-values-banner .row .family-content {
   background-image: url("../images/icon1.svg"), url("../images/icon2.svg"), url("../images/icon3.svg"), url("../images/icon4.svg"), url("../images/icon5.svg");
@@ -330,12 +334,15 @@ header .container .navbar-collapse .d-flex .btn:hover {
   text-align: left;
 }
 
-.algorithm {
-  max-width: 1440px;
+.algorithm-section {
   background-image: url("../images/Frame 39 (1).svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 90px 177px 168px 177px;
+}
+
+.algorithm {
+  max-width: 1086px;
+  padding: 90px 0 168px 0;
 }
 .algorithm h4 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -411,8 +418,8 @@ header .container .navbar-collapse .d-flex .btn:hover {
   }
 }
 .quotes {
-  max-width: 1440px;
-  padding: 90px 52px 90px 52px;
+  max-width: 1312px;
+  padding: 90px 0 90px 0;
 }
 .quotes h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -443,7 +450,7 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 {
   background: #eafcff;
-  padding: 32px 32px 0 0;
+  padding: 32px 32px 32px 0;
   min-height: 336px;
 }
 .quotes .row:nth-child(2) .owl-carousel-quotes .col-lg-45 .d-flex {
@@ -582,11 +589,14 @@ header .container .navbar-collapse .d-flex .btn:hover {
   min-height: 196px;
 }
 
-.form-help {
-  max-width: 1440px;
-  margin: auto;
-  padding: 90px 160px 90px 160px;
+.section-form {
   background-image: url("../images/Frame 107 (1).svg");
+}
+
+.form-help {
+  max-width: 1086px;
+  margin: auto;
+  padding: 90px 0 90px 0;
 }
 .form-help .submit-button-custom {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -610,22 +620,22 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 @media (max-width: 1199px) {
   .form-help {
-    padding: 80px 120px 80px 120px;
+    padding: 80px 0 80px 0;
   }
 }
 @media (max-width: 991px) {
   .form-help {
-    padding: 60px 80px 60px 80px;
+    padding: 60px 0 60px 0;
   }
 }
 @media (max-width: 767px) {
   .form-help {
-    padding: 40px 40px 40px 40px;
+    padding: 40px 0 40px 0;
   }
 }
 @media (max-width: 575px) {
   .form-help {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 0 30px 0;
   }
 }
 .form-help .row:nth-child(1) p:nth-child(1) {
@@ -822,8 +832,6 @@ header .container .navbar-collapse .d-flex .btn:hover {
 }
 
 footer {
-  max-width: 1440px;
-  margin: 0 auto;
   padding: 24px 0;
   border-top: 1px dotted #ccc; /* Пунктирная линия сверху, как на макете */
 }

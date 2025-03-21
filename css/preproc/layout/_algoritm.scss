@@ -1,11 +1,16 @@
 @use '../abstracts/mixins' as mxn;
 
-.algorithm{
-  max-width: 1440px;
+.algorithm-section{
   background-image: url('../images/Frame 39 (1).svg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 90px 177px 168px 177px;
+
+}
+
+.algorithm{
+  max-width: 1086px;
+
+  padding: 90px 0 168px 0;
   h4{
     @include mxn.nav-link-typography-h4;
   }

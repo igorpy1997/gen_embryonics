@@ -1,12 +1,14 @@
 @use '../abstracts/mixins' as mxn;
+.section-form{
+  background-image: url("../images/Frame 107 (1).svg");
 
+}
 
 
 .form-help{
-  max-width: 1440px;
+  max-width: 1086px;
   margin: auto;
-  padding: 90px 160px 90px 160px;
-  background-image: url("../images/Frame 107 (1).svg");
+  padding: 90px 0 90px 0;
   .submit-button-custom {
     @include mxn.btn-base;
 
@@ -16,22 +18,22 @@
 
   // Large devices (desktops)
   @media (max-width: 1199px) {
-    padding: 80px 120px 80px 120px;
+    padding: 80px 0 80px 0;
   }
 
   // Medium devices (tablets)
   @media (max-width: 991px) {
-    padding: 60px 80px 60px 80px;
+    padding: 60px 0 60px 0;
   }
 
   // Small devices (landscape phones)
   @media (max-width: 767px) {
-    padding: 40px 40px 40px 40px;
+    padding: 40px 0 40px 0;
   }
 
   // Extra small devices (portrait phones)
   @media (max-width: 575px) {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 0 30px 0;
   }
 
   .row:nth-child(1) {
