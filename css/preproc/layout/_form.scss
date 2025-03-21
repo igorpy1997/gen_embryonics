@@ -18,22 +18,22 @@
 
   // Large devices (desktops)
   @media (max-width: 1199px) {
-    padding: 80px 0 80px 0;
+    padding: 80px 24px 80px 24px;
   }
 
   // Medium devices (tablets)
   @media (max-width: 991px) {
-    padding: 60px 0 60px 0;
+    padding: 60px 24px 60px 24px;
   }
 
   // Small devices (landscape phones)
   @media (max-width: 767px) {
-    padding: 40px 0 40px 0;
+    padding: 40px 24px 40px 24px;
   }
 
   // Extra small devices (portrait phones)
   @media (max-width: 575px) {
-    padding: 30px 0 30px 0;
+    padding: 30px 24px 30px 24px;
   }
 
   .row:nth-child(1) {

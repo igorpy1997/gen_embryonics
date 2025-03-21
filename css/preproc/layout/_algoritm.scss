@@ -34,36 +34,3 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .algorithm{
-    padding-left: 100px;
-    padding-right: 100px;
-    .row:nth-child(1) .col-lg-4{
-      padding-right: 48px;
-    }
-
-  }
-}
-
-@media (max-width: 992px) {
-  .algorithm{
-    padding-left: 64px;
-    padding-right: 64px;
-    .row:nth-child(1) .col-lg-4{
-      padding-right: 0;
-    }
-
-  }
-}
-@media (max-width: 768px) {
-  .algorithm{
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-@media (max-width: 576px) {
-  .algorithm{
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
